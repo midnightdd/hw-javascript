@@ -19,7 +19,3 @@ function checkPasswordStrength(password) {
     return "Weak";
 }
 
-// Приклади використання
-console.log(checkPasswordStrength("password"));    // Weak
-console.log(checkPasswordStrength("Password123")); // Strong
-console.log(checkPasswordStrength("12345678"));    // Weak
